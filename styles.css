@@ -1,18 +1,18 @@
-title {
-  color: red;
-  font-family: Roboto;
-}
-div {
+.logo {
 color: green;
 font-family: Roboto;
 }
-a {
+.menu__item {
   color: red;
   font-family: Helvetica;
 }
-h1{
+.main-content__title {
   background-color: red;
 }
-p{
+.main-content__subtitle {
   color: red;
+}
+.main-content__button {
+  font-family: Helvetica;
+  background-color: blue;
 }
