@@ -1,18 +1,40 @@
+.logo, .menu {
+  display: inline-block;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper {
+  margin: auto;
+  border: dashed 1px red;
+}
 .logo {
-color: green;
+color: black;
 font-family: Roboto;
 }
 .menu__item {
-  color: red;
+  padding: 0 13px;
+  color: black;
   font-family: Helvetica;
 }
+.menu_item:last-child {
+  padding-right: 0;
+}
 .main-content__title {
-  background-color: red;
+  padding: 0;
+  color: black;
+  font-size: 250%;
+  width: 55%;
 }
 .main-content__subtitle {
-  color: red;
+  padding: 0;
+  color: black;
+  font-size: 90%;
+  width:40%;
 }
 .main-content__button {
   font-family: Helvetica;
   background-color: blue;
+  color: white;
 }
