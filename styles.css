@@ -7,7 +7,6 @@
 }
 .wrapper {
   margin: auto;
-  border: dashed 1px red;
 }
 .logo {
 padding-left: 44px;
@@ -40,22 +39,20 @@ font-family: Roboto;
   color: white;
 }
 .logo_circle{
-  left:0;
+  left:2px;
   top:1%;
   position: absolute;
   transform: translateY (-50%);
   width: 28px;
   height: 28px;
-  color: #C8DBFB;
+  background-color: #0056EC;
   border-radius: 50%;
   opacity: 0.7;
-  border: dashed 1px red;
 }
 .logo_circle_color_dark_blue{
-  left:8px;
+  left:10px;
   top:2%;
-  color: #0056EC;
+  background-color: #C8DBFB;
   border-radius: 50%;
   opacity: 0.7;
-  border: dashed 1px red;
 }
