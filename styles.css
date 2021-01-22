@@ -10,12 +10,16 @@
 }
 .logo {
 padding-left: 44px;
-font-family: Roboto;
+font: 700 24px/32px pt_serif, arial, helvetica, sans-serif;
+font-style: normal;
+font-weight: bold;
+color: #000;
 }
 .menu__item {
   position: relative;
   margin-right: 26px;
-  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+  font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+  font-style: normal;
   color: #000;
   text-decoration: none;
 }
